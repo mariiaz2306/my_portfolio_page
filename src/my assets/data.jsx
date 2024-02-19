@@ -61,25 +61,25 @@ export const personalInfo = [
   {
     id: 1,
     title: 'First Name : ',
-    description: 'Steve',
+    description: 'Mariia',
   },
 
   {
     id: 2,
     title: 'Last Name : ',
-    description: 'Milner',
+    description: 'Ziangirova',
   },
 
   {
     id: 3,
     title: 'Age : ',
-    description: '27 Years',
+    description: '34 Years',
   },
 
   {
     id: 4,
     title: 'Nationality : ',
-    description: 'Tunisian',
+    description: 'Ukrainian',
   },
 
   {
@@ -91,58 +91,59 @@ export const personalInfo = [
   {
     id: 6,
     title: 'Address : ',
-    description: 'Tunis',
+    description: 'Germany',
   },
 
   {
     id: 7,
     title: 'Phone : ',
-    description: '+21621184010',
+    description: '+49 162 380 1217',
   },
 
   {
     id: 8,
     title: 'Email : ',
-    description: 'you@mail.com',
+    description: 'mariianader2305@gmail.com',
   },
 
   {
     id: 9,
     title: 'Skype : ',
-    description: 'steve.milner',
+    description: 'mariianader2305',
   },
 
   {
     id: 10,
     title: 'Langages : ',
-    description: 'French, English',
+    description: 'German, English, French, Russian, Ukrainian',
   },
 ];
 
 export const stats = [
   {
     id: 1,
-    no: '12+',
+    no: '1+',
     title: 'Years of <br /> Experience',
   },
 
   {
     id: 2,
-    no: '97+',
+    no: '25+',
     title: 'Completed <br /> Projects',
   },
 
   {
     id: 3,
-    no: '81+',
+    no: '20+',
     title: 'Happy <br /> Customers',
   },
-
   {
-    id: 4,
-    no: '53+',
-    title: ' Awards <br /> Won',
+    id: 3,
+    no: '15+',
+    title: 'Modern Technologies <br /> Acknowladged',
   },
+
+
 ];
 
 export const resume = [
@@ -150,9 +151,9 @@ export const resume = [
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2018 - PRESENT',
-    title: 'Web Developer <span> Envato </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
+    year: '2022 - PRESENT',
+    title: 'Web <span>  Developer </span>',
+    desc: 'An incrediable passion to make a digital world prettier, smarter, easier and faster.',
   },
 
   {
