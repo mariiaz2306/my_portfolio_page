@@ -2,7 +2,7 @@ import React from 'react'
 import Info from '../../components/Info'
 import Stats from '../../components/Stats'
 import { FaDownload } from 'react-icons/fa'
-import CV from '../../my assets/assets/Mariia Ziangirova CV.pdf';
+import CV from '../../my assets/assets/MARIIA ZIANGIROVA CV.pdf';
 import Skills from '../../components/Skills';
 import {resume} from '../../my assets/data'
 import ResumeItem from '../../components/ResumeItem';

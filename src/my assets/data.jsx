@@ -9,12 +9,12 @@ import {
 } from 'react-icons/fa';
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
-import Work1 from './assets/project-1.jpeg';
-import Work2 from './assets/project-2.jpg';
-import Work3 from './assets/project-3.jpeg';
-import Work4 from './assets/project-4.jpeg';
-import Work5 from './assets/project-5.jpg';
-import Work6 from './assets/project-6.jpg';
+import Work1 from './assets/sapper.jpg';
+import Work2 from './assets/COLOR.jpg';
+import Work3 from './assets/currency.jpg';
+import Work4 from './assets/CHESS.jpg';
+import Work5 from './assets/weather.jpg'
+import Work7 from './assets/quiz.avif';
 
 import Theme1 from './assets/purple.png';
 import Theme2 from './assets/red.png';
@@ -122,19 +122,19 @@ export const personalInfo = [
 export const stats = [
   {
     id: 1,
-    no: '1+',
+    no: '1.5+',
     title: 'Years of <br /> Experience',
   },
 
   {
     id: 2,
-    no: '25+',
+    no: '15+',
     title: 'Completed <br /> Projects',
   },
 
   {
     id: 3,
-    no: '20+',
+    no: '10+',
     title: 'Happy <br /> Customers',
   },
   {
@@ -152,53 +152,37 @@ export const resume = [
     category: 'experience',
     icon: <FaBriefcase />,
     year: '2022 - PRESENT',
-    title: 'Web <span>  Developer </span>',
-    desc: 'An incrediable passion to make a digital world prettier, smarter, easier and faster.',
+    title: 'Front-end   Developer',
+    desc: 'SLAs development, designing, and implementation of new features. Work with cross-functional teams to deliver high-quality products.',
   },
 
-  {
-    id: 2,
-    category: 'experience',
-    icon: <FaBriefcase />,
-    year: '2013 - 2018',
-    title: 'UI/UX Designer <span> Themeforest </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
-  },
 
-  {
-    id: 3,
-    category: 'experience',
-    icon: <FaBriefcase />,
-    year: '2005 - 2013',
-    title: 'Consultant <span> Videohive </span>',
-    desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
-  },
 
   {
     id: 4,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2015',
-    title: 'Engineering Degree <span> Oxford University </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
+    year: '2011',
+    title: 'Bachalor Degree in Phylology<span> Gorlovka State University </span>',
+    desc: 'English & French languages and World Literature',
   },
 
   {
     id: 5,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2012',
-    title: 'Master Degree <span> KIEV University </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    year: '2021',
+    title: 'Bachalor Degree <span> Donetsk Technical University </span>',
+    desc: 'The Faculty of Automation of Information Technologies',
   },
 
   {
     id: 6,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2009',
-    title: 'Bachelor Degree <span> Tunis High School </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
+    year: '2023-2024',
+    title: 'Starta Institute Berlin',
+    desc: 'Front-end Development',
   },
 ];
 
@@ -206,7 +190,7 @@ export const skills = [
   {
     id: 1,
     title: 'Html',
-    percentage: '25',
+    percentage: '100',
   },
 
   {
@@ -218,37 +202,57 @@ export const skills = [
   {
     id: 3,
     title: 'Css',
-    percentage: '70',
+    percentage: '90',
   },
 
   {
     id: 4,
-    title: 'Php',
-    percentage: '66',
+    title: 'React',
+    percentage: '70',
   },
 
   {
     id: 5,
     title: 'Wordpress',
-    percentage: '95',
-  },
-
-  {
-    id: 6,
-    title: 'Jquery',
     percentage: '50',
   },
 
   {
+    id: 6,
+    title: 'Jest',
+    percentage: '60',
+  },
+
+  {
     id: 7,
-    title: 'Angular',
-    percentage: '65',
+    title: 'MongoDB',
+    percentage: '85',
   },
 
   {
     id: 8,
-    title: 'React',
-    percentage: '45',
+    title: 'My SQL',
+    percentage: '65',
+  },
+  {
+    id: 9,
+    title: 'Node JS',
+    percentage: '40',
+  },
+  {
+    id: 10,
+    title: 'Material UI',
+    percentage: '55',
+  },
+  {
+    id: 11,
+    title: 'Linux',
+    percentage: '85',
+  },
+  {
+    id: 12,
+    title: 'RestFull API',
+    percentage: '95',
   },
 ];
 
@@ -256,27 +260,27 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: 'Photo Editing',
+    title: 'Sapper Game',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Photo',
+        desc: 'Sapper Game',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'Selfdevelopment',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        desc: 'React',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://github.com/mariiaz2306/sapper-game',
       },
     ],
   },
@@ -284,17 +288,17 @@ export const portfolio = [
   {
     id: 2,
     img: Work2,
-    title: 'Website Design',
+    title: 'Color Guessing Game',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Website',
+        desc: 'Game',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'Selfdevelopment',
       },
       {
         icon: <FaCode />,
@@ -304,7 +308,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://github.com/mariiaz2306/color-guessing-game',
       },
     ],
   },
@@ -312,27 +316,27 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
-    title: 'Video Editing',
+    title: 'Currency Converter',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
+        desc: 'APP',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'SelfEducation',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
+        desc: 'React JS',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://github.com/mariiaz2306/currency-converter',
       },
     ],
   },
@@ -340,27 +344,27 @@ export const portfolio = [
   {
     id: 4,
     img: Work4,
-    title: 'Video Editing',
+    title: 'Chess Game',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
+        desc: 'Game',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'Selfeducation',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
+        desc: 'React JS',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://github.com/mariiaz2306/chess-app2',
       },
     ],
   },
@@ -368,54 +372,56 @@ export const portfolio = [
   {
     id: 5,
     img: Work5,
-    title: 'Landing Page',
+    title: 'Weather App',
     details: [
       {
         title: 'Project : ',
-        desc: 'Website',
+        desc: 'APP',
       },
       {
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'Educational',
       },
       {
         title: 'Language : ',
-        desc: 'React JS, Node JS',
+        desc: 'React JS, Axios',
       },
       {
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://github.com/mariiaz2306/REACT_WEATHER_APP',
       },
     ],
   },
 
   {
     id: 6,
-    img: Work6,
-    title: 'Photo Editing',
+    img: Work7,
+    title: 'Quiz App',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Photo',
+        desc: 'APP',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'Educational',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        desc: 'React JS',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dibble.com',
+        desc: 'https://github.com/mariiaz2306/QUIZ_SLA_REACT_PROJECT/tree/main',
       },
+      
     ],
   },
+
 ];
 
 export const themes = [
