@@ -23,12 +23,12 @@ const About = () => {
               <ul className='info__list grid'>
               <Info />
               </ul>
+
              <a href={CV} download=''  className="button">
               Download CV <span className="button__icon">
                 <FaDownload />
                 </span>
-              </a>
-             
+              </a> 
             </div>
 
             <div className="stats grid">
@@ -38,15 +38,17 @@ const About = () => {
       </section>
 
       <div className="separator"></div>
+
       <section className="skills">
         <h3 className="section__subtitle subtitle__center">My skills</h3>
-        </section>
+     
 
         <div className="skills__container grid">
           <Skills />
         </div>
+   </section>
 
-
+   <div className="separator"></div>
 
         <section className="resume">
         <h3 className="section__subtitle subtitle__center">
@@ -62,6 +64,7 @@ const About = () => {
               }
             })}
         </div>
+
         <div className="resume__data">
             {resume.map((val)=>{
               if(val.category==='education'){
@@ -72,7 +75,7 @@ const About = () => {
         </div>
       </section>
     </main>
-  )
-}
+  );
+};
 
-export default About
+export default About;

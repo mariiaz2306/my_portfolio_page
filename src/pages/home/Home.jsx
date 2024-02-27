@@ -9,22 +9,24 @@ const Home = () => {
   return (
 <section className="home section grid">
   <img src={Profile} alt="" className="home__img" />
+
   <div className="home__content">
     <div className="home__data">
-      <h1 className="home__title"><span> Hi, I'm Mariia Ziangirova.</span> Front-end Developer </h1>
+      <h1 className="home__title">
+        <span> Hi, I'm Mariia Ziangirova.</span> Front-end Developer </h1>
+
       <p className="home__description">High level experience in web design and development knowledge, producing quality work and user-friendly experiences
       </p>
       <Link to = '/about' className='button'>
-        More About me
+        More About me{' '}
         <span className='button__icon'>
           <FaArrowRight/>
           </span>
-
       </Link>
     </div>
   </div>
 
-  <div className="color__block"></div>
+<div className="color__block"></div>
 </section>
   )
 }
